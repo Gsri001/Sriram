@@ -1,0 +1,17 @@
+var email=true;
+var facebook=false;
+var goole=true;
+// if(email||facebook||google){
+//     console.log("sss")
+// }
+// else{
+//     console.log("noo");
+// } 
+
+email?console.log("signout"):console.log(login)
+// if(user){
+//     console.log("signout")
+// }
+// else{
+//     console.log(login)
+// }
