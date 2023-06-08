@@ -1,0 +1,34 @@
+
+body {
+	background-color:darkgray;
+	color:currentColor;
+    margin: 250px;
+	display: flex;
+    justify-content: center;
+}
+.watch {
+	text-align: center;
+	 max-width: 360px;
+	margin: 4rem auto;
+	padding: 1rem 2rem;
+	border-radius: 1rem; 
+}
+  .watch .time {
+	font-size: 5rem;
+	font-weight: 300;
+	margin-bottom: 1rem; 
+ } 
+.controls button {
+	cursor: pointer;
+	margin: 0 0.5rem;
+	padding: 0.5rem 1rem;
+	border-radius: 0.5rem;
+	color:black;
+	background-color:rgb(83, 67, 67); 
+}
+.controls button:hover{
+	background-color: blueviolet;
+}
+.controls button:active {
+	background-color: vardark;
+} 
